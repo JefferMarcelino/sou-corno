@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Multi-Step Form</title>
+</head>
+<body>
+  <div class="form-container">
+    <h1>Sera que sou corno?</h1>
+    <div id="message"></div>
+    <div class="finally">
+      <img id="resultImage" alt="Resultado">
+    </div>
+    <form id="multistep-form">
+      <div class="step first">
+        <h2>Pergunta 1</h2>
+        <label for="name">Qual é o seu nome?</label>
+        <input type="text" id="name" required>
+        <button id="next1">Proxima questao</button>
+      </div>
+
+      <div class="step">
+        <h2>Pergunta 2</h2>
+        <label for="sex">Ele/ela tem melhor amigo/amiga do sexo oposto?</label>
+        <select id="sex" required>
+          <option value="sim">Sim</option>
+          <option value="não">Não</option>
+        </select>
+        <button id="next2">Proxima questao</button>
+      </div>
+
+      <div class="step">
+        <h2>Pergunta 3</h2>
+        <label>Ele/ela já foi a Bilene sem você (com os primos)?</label>
+        <select id="trip" required>
+          <option value="sim">Sim</option>
+          <option value="não">Não</option>
+        </select>
+        <button id="next3">Proxima questao</button>
+      </div>
+
+      <div class="step">
+        <h2>Pergunta 4</h2>
+        <label>Namoram à distância?</label>
+        <select id="date" required>
+          <option value="sim">Sim</option>
+          <option value="não">Não</option>
+        </select>
+        <button id="next4">Proxima questao</button>
+      </div>
+
+      <div class="step">
+        <h2>Pergunta 5</h2>
+        <label>Sabias que amanhã é dia dos cornos?</label>
+        <select id="tomorrow" required>
+          <option value="sim">Sim</option>
+          <option value="não">Não</option>
+        </select>
+        <button id="next5">Ter resposta</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
