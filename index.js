@@ -14,11 +14,11 @@ const names = `
   <h3>Lista dos cornos</h3>
   <ul>
     user_name
-    <li>Jamil</li>
-    <li>Warren</li>
-    <li>Maju</li>
-    <li>Calebe</li>
-    <li>Macremora</li>
+    <li>José</li>
+    <li>João</li>
+    <li>Manuel</li>
+    <li>Edmílson</li>
+    <li>Shelton</li>
   </ul>
 </div>
 `;
